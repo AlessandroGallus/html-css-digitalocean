@@ -1,0 +1,32 @@
+.ag-relative{
+  position: relative;
+}
+.ag-maring-bot-20{
+  margin-bottom: 30px;
+}
+.ag-fixed-top{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right:0;
+  z-index: 999;
+}
+.ag-bg-pink{
+  background-color: pink;
+}
+.ag-bg-red{
+  background-color: red;
+}
+.ag-bg-grey{
+  background-color:#F3F5F9;
+}
+.ag-stories{
+  padding: 20px;
+}
+.ag-jumbotron{
+  background-image: url(../img/bg-banner-home.jpg);
+  margin-top: 50px;
+  background-position: center;
+  background-size: cover;
+  width:100%;
+}
