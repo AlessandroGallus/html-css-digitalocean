@@ -1,8 +1,31 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
 .ag-relative{
   position: relative;
 }
+.ag-list ul{
+  padding:0;
+  margin:0;
+}
+margin-left-80{
+  margin-left:80px;
+}
+.ag-list ul li{
+  list-style-type:none;
+}
+.ag-border-left{
+  border-left: 1px solid grey;
+  padding-left: 20px;
+}
+.ag-list li~li{
+  margin-top:7px;  
+}
+.ag-maring-top-20{
+  margin-bottom: 20px;
+}
 .ag-maring-bot-20{
-  margin-bottom: 30px;
+  margin-top: 20px;
 }
 .ag-fixed-top{
   position: fixed;
@@ -10,6 +33,12 @@
   left: 0;
   right:0;
   z-index: 999;
+}
+.ag-font-18{
+  font-size: 18px;
+}
+.ag-min-height{
+  min-height: 100px;
 }
 .ag-bg-pink{
   background-color: pink;
@@ -20,7 +49,7 @@
 .ag-bg-grey{
   background-color:#F3F5F9;
 }
-.ag-stories{
+#ag-stories{
   padding: 20px;
 }
 .ag-jumbotron{
