@@ -4,9 +4,17 @@ body{
 .ag-relative{
   position: relative;
 }
-.ag-list ul{
-  padding:0;
+nav{
   margin:0;
+}
+#ag-navbar{
+  margin:0;
+  margin-bottom: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right:0;
+  z-index: 999;
 }
 .margin-left-80{
   margin-left:80px;
@@ -14,6 +22,9 @@ body{
 .ag-list{
   padding-top:7px;
   padding-bottom:7px;
+}
+.ag-list ul{
+  padding-left:0;
 }
 .ag-list ul li{
   list-style-type:none;
@@ -40,13 +51,6 @@ body{
 .ag-margin-bot-20{
   margin-top: 20px;
 }
-.ag-fixed-top{
-  position: fixed;
-  top: 0;
-  left: 0;
-  right:0;
-  z-index: 999;
-}
 .ag-font-18{
   font-size: 18px;
 }
@@ -55,9 +59,11 @@ body{
 }
 .ag-bg-pink{
   background-color: pink;
+  height: 30px;
 }
 .ag-bg-red{
   background-color: red;
+  height: 30px;
 }
 .ag-bg-grey{
   background-color:#F3F5F9;
@@ -67,15 +73,45 @@ body{
 }
 .ag-carousel img{
   width:50%;
+  margin:0 2%;
 }
 .ag-glyphicons{
-  font-size:25px;
+  font-size:2em;
   color:#031C4E;
+}
+.ag-glyphicon-inactive{
+  opacity: 0.5;
 }
 .ag-jumbotron{
   background-image: url(../img/bg-banner-home.jpg);
-  margin-top: 50px;
   background-position: center;
   background-size: cover;
   width:100%;
+  margin-top: 50px;
+}
+#features{
+  padding-bottom:40px;
+}
+.ag-circles{
+  margin-top:50px;
+}
+.ag-blue-circle{
+  display:inline-block;
+  width: 10px;
+  height:10px;
+  border:1px solid #006AFF;
+  border-radius:50%;
+}
+.ag-blue-circle-active{
+  background-color: #006AFF;
+}
+.ag-blue-circle ~ .ag-blue-circle{
+  margin-left:5px;
+}
+#deploy img, #features img{
+  width:35px;
+}
+#regions{
+  background-image: linear-gradient(to bottom left, #0047C5, #011F9A);
+  color:#fff;
 }
