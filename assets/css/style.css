@@ -68,14 +68,14 @@ body{
 .ag-carousel img{
   width:50%;
 }
+.ag-glyphicons{
+  font-size:25px;
+  color:#031C4E;
+}
 .ag-jumbotron{
   background-image: url(../img/bg-banner-home.jpg);
   margin-top: 50px;
   background-position: center;
   background-size: cover;
   width:100%;
-}
-.ag-glyphicons{
-  font-size:25px;
-  color:#031C4E;
 }
